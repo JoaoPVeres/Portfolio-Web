@@ -13,14 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Dados dos certificados (baseados no HTML fornecido)
     const certificadosData = {
-        'ia-pratica': {
-            titulo: 'IA na Prática',
-            instituicao: 'Daxus',
-            descricao: 'Curso completo sobre aplicação prática de Inteligência Artificial em projetos reais. Abordagem hands-on com ferramentas modernas de IA, machine learning e desenvolvimento de soluções inteligentes.',
-            competencias: ['Machine Learning', 'Python', 'TensorFlow', 'Análise de Dados', 'IA Aplicada'],
-            imagemUrl: 'assets/img/certificados/ia-pratica.jpg', // Substitua pela URL real
-            verificacaoUrl: '#'
-        },
         'cfc-2025': {
             titulo: 'CFC 2025.1',
             instituicao: 'Exame de Suficiência',
@@ -28,23 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
             competencias: ['Contabilidade Geral', 'Finanças Corporativas', 'Auditoria', 'Legislação Fiscal', 'Perícia Contábil'],
             imagemUrl: 'assets/img/certificados/cfc-2025.jpg', // Substitua pela URL real
             verificacaoUrl: '#'
-        },
-
-        'imersao-dados': {
-            titulo: 'Imerão Dados Alura',
-            instituicao: 'Alura',
-            descricao: 'Participação na Imersão Dados com Python promovida pela Alura, com foco em análise de dados, visualização gráfica e manipulação de conjuntos de dados utilizando bibliotecas como Pandas, Matplotlib e Seaborn.',
-            competencias: ['Análise de Dados', 'Programação em Python', 'Visualização Gráfica', 'Tratamento de Dados'],
-            imagemUrl: 'assets/img/certificados/imersao-dados.jpg', // Substitua pela URL real
-            verificacaoUrl: '#'
-        },
-        'jornada-python': {
-            titulo: 'Jornada Python HashtagTreinamentos',
-            instituicao: 'HashtagTreinamentos',
-            descricao: 'Participação na Jornada Python promovida pela Hashtag Treinamentos, curso intensivo de 4 dias com foco em projetos práticos de Python, abordando automação, análise de dados, machine learning e aplicações web.',
-            competencias: ['Análise de Dados', 'Programação em Python', 'Visualização Gráfica', 'Machine Learning'],
-            imagemUrl: 'assets/img/certificados/jornada-python.jpg', // Substitua pela URL real
-            verificacaoUrl: '#'            
         },
         'intensivao-bi': {
             titulo: 'Intensivão Power BI HashtagTreinamentos',
@@ -61,7 +36,15 @@ document.addEventListener('DOMContentLoaded', function() {
             competencias: ['Gestão por Processos', 'Melhoria de Processos', 'Mapeamento de Fluxo de Valor', 'Análise de Processos'],
             imagemUrl: 'assets/img/certificados/mapeamento-processos.jpg', // Substitua pela URL real
             verificacaoUrl: '#'            
-        },         
+        },
+        'planejamento-estrategico': {
+            titulo: 'Planejamento Estrátegico',
+            instituicao: 'PUCRS',
+            descricao: 'Curso de extensão voltado ao planejamento estratégico, crescimento e longevidade organizacional, com foco no alinhamento entre cultura, objetivos estratégicos e execução de resultados. Formação pela PUCRS (10h), abordando planejamento estratégico e tático, gestão orientada por valores e aplicação de ferramentas como SWOT, Balanced Scorecard, 5 Forças de Porter e 5W2H para apoiar a tomada de decisões e promover o crescimento sustentável.',
+            competencias: ['Planejamento Estratégico', 'Planejamento Tático', 'Cultura Organizacional'],
+            imagemUrl: 'assets/img/certificados/planejamento-estrategico.jpg', // Substitua pela URL real
+            verificacaoUrl: '#'            
+        },            
         'jornada-dados': {
             titulo: 'Imersão Profissional Jornada de Dados',
             instituicao: 'Jornada de Dados',
